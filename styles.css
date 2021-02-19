@@ -6,6 +6,15 @@ img {
     width: 100px;
 }
 
-.carousel-item {
+h1 {
+    color: royalblue;
+}
+
+h5 {
+    font-style: italic;
+    color: red;
+}
+
+p {
     color:red;
 }
