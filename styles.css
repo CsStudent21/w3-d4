@@ -12,9 +12,25 @@ h1 {
 
 h5 {
     font-style: italic;
-    color: red;
+    color:whitesmoke;
 }
 
 p {
-    color:red;
+    color:rosybrown;
+}
+
+#carouselExampleDark {
+    position: relative;
+}
+
+.carousel-inner::before {
+    content:"";
+    display:block;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    background-color: tomato;
+
 }
